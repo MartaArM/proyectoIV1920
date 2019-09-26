@@ -2,4 +2,6 @@
 Repositorio de proyecto de IV
 
 # Descripción del proyecto
-Voy a hacer un sistema de gestión de elementos multimedia (libros, peliculas, comics, musica, etc.) para poder añadirlos, editarlos, eliminarlos. 
+La idea es crear un sistema de gestión de elementos multimedia (sin copyright) tales como libros electrónicos, música, películas, series... La idea es que la gente pueda compartir las cosas que le gustan con otros usuarios y que otros puedan tener un entretenimiento sin gasto.
+
+La razón por la que me gustaría crear este servicio es que hay pocos sitios en los que encontrar muchas cosas con las que entretenerse en un mismo sitio y gratuito. Ya que somos jóvenes, estaría bien poder encontrar cosas que no sean simplemente redes sociales y programas de televisión. Además, la gente podrá también compartir contenido propio para darse a conocer.
