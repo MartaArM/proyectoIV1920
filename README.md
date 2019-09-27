@@ -6,6 +6,6 @@ La razón por la que me gustaría crear este servicio es que hay pocos sitios en
 # Herramientas
 
 1. El lenguaje a utilizar será Python.
-2. El gestor de base de datos será MariaDB.
-3. Para hacer integración continua, utilizaré [Travis CI](https://travis-ci.com/)
-4. Para el despliegue en la nube, utilizaré [Heroku](https://www.heroku.com/)
+2. El gestor de base de datos será MariaDB, ya que es un gestor que he utilizado en otras asignaturas y me parece "sencillo".
+3. Para hacer integración continua, utilizaré [Travis CI](https://travis-ci.com/), ya que viene "integrado" con GitHub y no es necesario crearse una cuenta ni descargar nada.
+4. Para el despliegue en la nube, utilizaré [Heroku](https://www.heroku.com/), ya que es un servicio gratuito y fácil de utilizar.
