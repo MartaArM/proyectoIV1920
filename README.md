@@ -1,6 +1,3 @@
-# proyectoIV1920
-Repositorio de proyecto de IV
-
 # Descripción del proyecto
 La idea es crear un sistema de gestión de elementos multimedia (sin copyright) tales como libros electrónicos, música, películas, series... La idea es que la gente pueda compartir las cosas que le gustan con otros usuarios y que otros puedan tener un entretenimiento sin gasto.
 
