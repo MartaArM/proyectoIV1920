@@ -7,7 +7,7 @@ El microservicio permitirá eliminar, editar, o añadir estos elementos.
 
 Permitirá el acceso y modificación fácilmente de elementos multimedia a distintos usuarios.
 
-# Herramientas
+# Herramientas 
 
 1. El lenguaje a utilizar será Ruby.
 2. El gestor de base de datos será MariaDB, ya que es un gestor que he utilizado en otras asignaturas y me parece "sencillo".
