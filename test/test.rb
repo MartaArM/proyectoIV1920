@@ -8,7 +8,7 @@ require_relative  '../src/ElementoMM'
 class TestMyMedia <  Test::Unit::TestCase
 
 	def setup 
-		file = File.read('../src/elemento.json')
+		file = File.read('src/elemento.json')
 		elem = JSON.parse(file)
 		
 		@elemento = ElementoMM.new(elem['nombre'], elem['tipo'], elem['valoracion'], elem['acceso'], elem['id'])
