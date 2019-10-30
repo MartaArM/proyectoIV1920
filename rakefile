@@ -1,7 +1,15 @@
 #require 'rspec/core/rake_task'
 
-task default: %w[test]
+task default: %w[start]
 
 task :test do
 	ruby 'test/test.rb'
+end
+
+task :start do
+	exec "rackup config.ru"
+end
+
+task :stop do
+	exec "pkill -f rackup"
 end
