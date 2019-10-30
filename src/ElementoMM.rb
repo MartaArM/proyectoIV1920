@@ -9,5 +9,12 @@ class ElementoMM
 		@acceso = a
 		@id = i
 	end
-
+	
+	def to_json
+		{"nombre" => @nombre ,
+		"tipo" => @tipo,
+		"valoracion" => @valoracion,
+		"acceso" => @acceso,
+		"id" => @id}.to_json
+	end
 end

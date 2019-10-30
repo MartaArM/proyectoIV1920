@@ -1,17 +1,18 @@
-[
- {
-     "nombre" : "La casa de papel",
+{
+  "elementos": {
+    "2": {
+      "nombre": "That's life",
+      "tipo": "Canción",
+      "valoracion": 8,
+      "acceso": "Spotify",
+      "id": 2
+    },
+    "1": {
+	 "nombre" : "La casa de papel",
      "tipo" : "Serie",
      "valoracion" : 2,
 	 "acceso" : "Netflix",
-	 "id" : "01"
- }
- ,
- {
-	 "nombre" : "That's life",
-     "tipo" : "Canción",
-     "valoracion" : 8,
-	 "acceso" : "Spotify",
-	 "id" : "02"
- }
- ]
+	 "id" : 1
+	}
+  }
+}
