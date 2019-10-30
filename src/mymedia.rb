@@ -39,6 +39,8 @@ class MyMedia < Sinatra::Base
 		File.open('src/elementos.json', "w") do |f|
 			f.puts JSON.pretty_generate(@datos)
 		end
+		content_type :json
+		{:status => 'OK'}.to_json
 	end
 	
 	
