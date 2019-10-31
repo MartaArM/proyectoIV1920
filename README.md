@@ -22,6 +22,8 @@ Permitirá el acceso y modificación fácilmente de elementos multimedia a disti
 
 # Instalación y tests
 
+buildtool: Rakefile
+
 Para instalarlo, simplemente hay que hacer un clone:
 
 `git clone https://github.com/MartaArM/proyectoIV1920.git`.
@@ -40,6 +42,4 @@ y
 
 Para probar el servicio: 
 
-`curl http://localhost:9292/status`
-
-buildtool: rakefile
+`curl http://localhost:9292/status` 
