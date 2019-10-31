@@ -42,4 +42,7 @@ Para probar el servicio:
 
 `curl http://localhost:9292/status`
 
+## Corrección
+
 buildtool: rakefile
+
