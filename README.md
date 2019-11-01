@@ -22,7 +22,7 @@ Permitirá el acceso y modificación fácilmente de elementos multimedia a disti
 
 # Instalación y tests
 
-buildtool: Rakefile
+buildtool: rakefile
 
 Para instalarlo, simplemente hay que hacer un clone:
 
