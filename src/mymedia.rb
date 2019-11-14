@@ -65,7 +65,7 @@ class MyMedia < Sinatra::Base
 		content_type :json
 		{:status => 'OK'}.to_json
 	end
-	
+	 
 end
 
 
