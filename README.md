@@ -28,18 +28,5 @@ Para instalarlo, simplemente hay que hacer un clone:
 
 `git clone https://github.com/MartaArM/proyectoIV1920.git`.
 
-Para ejecutar los test básicos, basta con hacer:
-
-`rake test`
-
-Para levantar y parar el servicio, se debe hacer:
-
-`rake start`
-
-y
-
-`rake stop`
-
-Para probar el servicio: 
-
-`curl http://localhost:9292/status` 
+- [Documentación de herramientas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_herramientas.md)
+- [Documentación de rutas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_rutas.md)
