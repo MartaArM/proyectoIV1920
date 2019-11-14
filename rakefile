@@ -13,3 +13,6 @@ end
 task :stop do
 	exec "pkill -f rackup"
 end
+
+task :test_comp do
+	ruby 'test/test_mymedia.rb'
