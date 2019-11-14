@@ -17,4 +17,8 @@ class ElementoMM
 		"acceso" => @acceso,
 		"id" => @id}.to_json
 	end
+	
+	def setValoracion(n)
+		@valoracion = n
+	end
 end

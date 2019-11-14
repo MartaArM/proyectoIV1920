@@ -10,7 +10,6 @@ class MyMedia < Sinatra::Base
 		archivo = File.read('src/elementos.json')
 		@datos = JSON.parse(archivo)
 		@elementos = []
-		@cont=0
 		
 	end
 	
@@ -43,6 +42,29 @@ class MyMedia < Sinatra::Base
 		{:status => 'OK'}.to_json
 	end
 	
+	put "/elementos" do
+		elemento = JSON.parse(request.body.read)
+		@datos['elementos'] = @datos["elementos"].merge(elemento)
+		File.open('src/elementos.json', "w") do |f|
+			f.puts JSON.pretty_generate(@datos)
+		end
+		content_type :json
+		{:status => 'OK'}.to_json
+	end
+	
+	put "/elementos/:id" do |id|
+		elemento = @datos["elementos"][id]
+		@datos["elementos"].delete(id)
+		elemento['valoracion'] = JSON.parse(request.body.read)
+		el = elemento.to_json
+		h = {1 => elemento}
+		@datos['elementos'] = @datos["elementos"].merge(h)
+		File.open('src/elementos.json', "w") do |f|
+			f.puts JSON.pretty_generate(@datos)
+		end
+		content_type :json
+		{:status => 'OK'}.to_json
+	end
 	
 end
 

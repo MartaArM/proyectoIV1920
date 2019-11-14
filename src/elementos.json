@@ -8,11 +8,11 @@
       "id": 2
     },
     "1": {
-	 "nombre" : "La casa de papel",
-     "tipo" : "Serie",
-     "valoracion" : 2,
-	 "acceso" : "Netflix",
-	 "id" : 1
-	}
+      "nombre": "La casa de papel",
+      "tipo": "Serie",
+      "valoracion": 5,
+      "acceso": "Netflix",
+      "id": 1
+    }
   }
 }
