@@ -12,15 +12,19 @@ class MyMedia < Sinatra::Base
 		@elementos = []
 		
 	end
-	
 	get '/' do
 		content_type :json
-		{:status => 'OK'}.to_json
+		{:status => 'OK',
+		:ejemplo => 
+		{:ruta => '/elementos/1',
+		:valor => {:nombre => 'La casa de papel', :tipo => 'Serie', :valoracion => 5, :acceso => 'Netflix', :id => 1}}}.to_json
 	end
-	
 	get '/status' do 
 		content_type :json
-		{:status => 'OK'}.to_json
+		{:status => 'OK',
+		:ejemplo => 
+		{:ruta => '/elementos/1',
+		:valor => {:nombre => 'La casa de papel', :tipo => 'Serie', :valoracion => 5, :acceso => 'Netflix', :id => 1}}}.to_json
 	end
 
 	get '/elementos' do
