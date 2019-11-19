@@ -20,6 +20,10 @@ Permitirá el acceso y modificación fácilmente de elementos multimedia a disti
 4. Para el despliegue en la nube, utilizaré [Heroku](https://www.heroku.com/), ya que es un servicio gratuito y fácil de utilizar.
 5. Como framework, uso [Sinatra](http://sinatrarb.com/).
 
+# Despliegue
+
+Despliegue: https://mymediaiv.herokuapp.com/
+
 # Instalación y tests
 
 buildtool: rakefile
@@ -30,3 +34,6 @@ Para instalarlo, simplemente hay que hacer un clone:
 
 - [Documentación de herramientas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_herramientas.md)
 - [Documentación de rutas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_rutas.md)
+- [Documentación de Heroku](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_paas.md)
+
+
