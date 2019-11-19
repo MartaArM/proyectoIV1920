@@ -1,4 +1,4 @@
-#Herramientas
+# Herramientas
 
 La herramienta de construcción que he utilizado es **rake**, la cual está incluida en Ruby. Esta herramienta utiliza un archivo llamado **Rakefile**, que es el que se utiliza para los tests, para iniciar y parar el servicio, etc.
 
