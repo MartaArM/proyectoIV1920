@@ -18,6 +18,6 @@ task :test_comp do
 	ruby 'test/test_mymedia.rb'
 end
 
-task :despligue do
+task :despliegue do
 	exec "git push heroku master"
 end
