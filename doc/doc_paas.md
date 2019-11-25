@@ -25,3 +25,5 @@ Si no ponemos nombre de aplicación, genera el nombre aleatoriamente. En mi caso
 6. Antes de desplegar la aplicación, es necesario general el archivo *Gemfile.lock* (ya que yo estoy utilizando Ruby como lenguaje9. Para generarlo, basta con hacer `bundle install`.
 7. Una vez generado mi archivo *Gemfile.lock*, ya puedo desplegar mi aplicación utilizando `git push heroku master`.
 8. Por último, para abrir la aplicación hacemos `heroku open` y se nos abrirá un navegador con la página principal.
+
+*Para configurar mi repositorio de Github con Heroku, hay que irse a la web de Heroku. En nuestra aplicación, nos vamos a la opcion **Deploy**, conectamos con nuestro Github, seleccionamos el repositorio que va a utilizar la aplicación y aceptamos para que cada vez que se haga un git en nuestro repo, se haga también en Heroku*
