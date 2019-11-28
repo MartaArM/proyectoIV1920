@@ -30,7 +30,14 @@ Para arrancar un contenedor con esa imagen, ejecutamos:
 
 Ya solo tenemos que irnos a la dirección *127.0.0.1:5000* y podemos ver nuestro microservicio.
 
-## Despliegue en DockerHub
+## Despliegue en Docker Hub
+
+Desplegar en Docker Hub es muy sencillo: 
+1. Primero, tenemos que darnos de alta en la [plataforma](https://hub.docker.com/)
+2. Después, hay que crear un repositorio en **Repositories -> Create Repository+*
+3. Podemos conectar nuestro repositorio de Github en el que tenemos nuestra aplicación para que cada vez que hagamos un push, se haga también en Docker Hub.
+
+Repositorio en Docker Hub: https://hub.docker.com/r/marta22/mymediaiv
 
 ## Despliegue en Heroku
 
