@@ -2,7 +2,6 @@ ruby '2.5.1'
 
 source "https://rubygems.org"
 
-gem "update"
 gem "rake"
 gem "test-unit"
 gem "rack"
@@ -10,4 +9,4 @@ gem "thin"
 gem "rack-test"
 gem "sinatra"
 gem "json" 
-gem "bundler"
+gem "bundler -v '1.17.3'"
