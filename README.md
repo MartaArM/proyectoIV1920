@@ -24,6 +24,10 @@ Permitirá el acceso y modificación fácilmente de elementos multimedia a disti
 
 Despliegue: https://mymediaiv.herokuapp.com/
 
+# Contenedores Docker
+
+Contenedor: https://mymediaiv.herokuapp.com/
+
 # Instalación y tests
 
 buildtool: rakefile
@@ -35,5 +39,5 @@ Para instalarlo, simplemente hay que hacer un clone:
 - [Documentación de herramientas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_herramientas.md)
 - [Documentación de rutas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_rutas.md)
 - [Documentación de Heroku](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_paas.md)
-
+- [Documentación de contenedor Docker](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_docker.md)
 
