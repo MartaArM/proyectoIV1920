@@ -28,6 +28,8 @@ Despliegue: https://mymediaiv.herokuapp.com/
 
 Contenedor: https://mymediaiv.herokuapp.com/
 
+Contenedor: https://hub.docker.com/r/marta22/mymediaiv
+
 # Instalación y tests
 
 buildtool: rakefile
