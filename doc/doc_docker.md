@@ -50,4 +50,4 @@ Para desplegar nuestro contenedor en Heroku, tenemos que crear un archivo llamad
 run:
   web: bundle exec rackup config.ru -p $PORT --host 0.0.0.0` 
 
-En *run* hace lo mismo que el Dockerfile, solo que en vez de un puerto específico cogemos el puerto por defecto que tiene Heroku con *$PORT*. Simplemente, haciendo *git push heroku master* ya se crea el contenedor directamente.
+En *run* hace lo mismo que el Dockerfile, solo que en vez de un puerto específico cogemos el puerto por defecto que tiene Heroku con *$PORT*. Simplemente, haciendo *git push* en nuestro repositorio ya se crea el contenedor directamente.
