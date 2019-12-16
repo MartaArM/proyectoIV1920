@@ -21,3 +21,15 @@ end
 task :despliegue do
 	exec "git push heroku master"
 end
+
+task :crearmv do
+	exec "vagrant up --no-provision"
+end
+
+task :provisionarmv do
+	exec "vagrant provision"
+end
+
+task :crearyprovisionar do
+	exec "vagrant up --provision"
+end
