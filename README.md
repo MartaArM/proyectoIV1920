@@ -38,6 +38,8 @@ Para instalarlo, simplemente hay que hacer un clone:
 
 `git clone https://github.com/MartaArM/proyectoIV1920.git`.
 
+# Provisionamiento
+
 - [Documentación de herramientas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_herramientas.md)
 - [Documentación de rutas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_rutas.md)
 - [Documentación de Heroku](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_paas.md)
