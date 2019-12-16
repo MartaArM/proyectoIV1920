@@ -1,0 +1,45 @@
+
+  - hosts: all
+    
+    tasks:
+
+      - name: Instalar dependencias
+        command: bash -lc "apt-get update"
+        become: true
+
+      - name: Instalar ruby
+        apt: pkg=ruby state=present
+        become: true
+        
+      - name: Instalar nodeJS
+        apt: pkg=nodejs state=present
+        become: true
+      
+      - name: Instalar rbenv
+        apt: pkg=rbenv state=present
+        become: true
+
+      - name: Instalar bundler
+        apt: pkg=bundler state=present
+        become: true
+        
+      - name: Instalar ruby-dev
+        apt: pkg=ruby-dev state=latest
+        become: true
+        
+      
+        
+      - name: Instalar rubygems
+        apt: pkg=rubygems state=latest
+        become: true
+        
+        
+      - name: Clonar el repositorio
+        git: repo=https://github.com/MartaArM/proyectoIV1920.git dest=MyMedia/  
+
+      - bundler: state=present gemfile=MyMedia/Gemfile
+       
+     
+
+    
+
