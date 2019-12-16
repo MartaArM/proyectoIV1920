@@ -40,8 +40,13 @@ Para instalarlo, simplemente hay que hacer un clone:
 
 # Provisionamiento
 
+provision: provision/playbook.yml
+
+# Documentación 
+
 - [Documentación de herramientas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_herramientas.md)
 - [Documentación de rutas](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_rutas.md)
 - [Documentación de Heroku](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_paas.md)
 - [Documentación de contenedor Docker](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_docker.md)
+- [Documentación de provisionamiento](https://github.com/MartaArM/proyectoIV1920/blob/master/doc/doc_provisionamiento.md)
 
